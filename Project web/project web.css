@@ -1,0 +1,317 @@
+body {
+    font-family: AR DARLING, sans-serif;
+    background-image: url(dark-horror-grungy-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0;
+    font-size: 100%;
+}
+
+@media screen and (min-width:940px) and (max-width:1920px) {
+    box-sizing: border-box;
+}
+
+paragraphp2 figure {
+    margin: 0;
+}
+
+
+.startingp,
+.wrapper,
+nav,
+footer {
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.startingp {
+
+    max-width: 100%;
+    height: auto;
+
+}
+
+@media all and (max-width:640px) {
+    .startingp > .sitelogo,
+    .startingp > .entrybutton,
+    .startingp > img {
+        max-width: 70%;
+        height: auto;
+        padding: 20px;
+        margin-left: 1rem;
+        margin-right: 50%;
+    }
+
+
+}
+
+
+.wrapper {
+    background-color: #B19E9E;
+
+}
+
+
+
+
+.fullspread figure {
+
+    display: block;
+    margin-left: 50%;
+    margin-right: 50%;
+    margin: 0;
+
+}
+
+@media all and (max-width:640px) {
+    .fullspread figure {
+        display: none;
+    }
+}
+
+.startingp,
+.wrapper,
+nav,
+footer,
+.fullspread figure > img {
+    max-width: 940px;
+}
+
+.sitelogo {
+    margin-left: 14.03rem;
+}
+
+.entrybutton {
+    border-radius: 2.50rem;
+    margin-bottom: 1.25rem;
+    margin-left: 19.38rem;
+    padding: 0;
+    max-width: 34.15%;
+
+}
+
+
+.rounded {
+    border-radius: 50%;
+}
+
+nav {
+    padding: 0rem 0rem 0rem;
+    font-size: 1.50rem;
+
+}
+
+nav > ul {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+footer nav > ul {
+    background: grey;
+
+}
+
+nav > ul,
+footer nav > ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+footer nav a {
+    line-height: 1.5rem;
+    padding: 2rem;
+}
+
+
+footer nav > ul {
+    min-height: 50px;
+
+}
+
+
+nav a,
+button > a {
+    display: block;
+    color: #000000;
+    font-weight: bold;
+    padding: 0 0.63rem;
+    line-height: 3.125rem;
+    text-decoration: none;
+
+}
+
+nav a:hover,
+.active a {
+    color: #546054;
+}
+
+.rounded {
+    border-radius: 10%;
+}
+
+.marginfigure,
+.fullspread figure,
+.fullspread,
+nav a,
+.gallery figure,
+paragraphp2 figure {
+    margin: 0;
+
+}
+
+.marginfigure {
+    display: flex;
+    max-height: 464px;
+}
+
+h1,
+button {
+    text-align: center;
+    font-size: 2.81rem;
+
+}
+
+h1 {
+    padding-bottom: 2.81rem;
+    padding-top: 2.81rem;
+    margin: 0;
+
+}
+
+p {
+    margin-right: 10%;
+}
+
+p,
+summary,
+h2 {
+    font-size: 1rem;
+    font-family: Segoe UI;
+    margin-left: 2%;
+}
+
+h3 {
+    font-size: 1.13rem;
+    margin-right: 0.63rem;
+    padding: 0;
+
+
+}
+
+@media all and (max-width:768px) {
+    .paragraphp5 {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media all and (max-width:640px) {
+    .paragraphp5 figure > img {
+        max-width: 80%;
+    }
+}
+
+@media all and (max-width:360px) {
+    .paragraphp5 .gallery > .extrapicture {
+        display: none;
+    }
+
+}
+
+
+
+.paraghraphp2,
+.threeparagraphs,
+.paragraphp4,
+.paragraphp5,
+.gallery {
+    display: flex;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+@media all and (max-width:360px) {
+    .paraghraphp2 figure {
+        display: none;
+    }
+}
+
+
+
+.gallery figure {
+    margin: 3.5%;
+
+}
+
+@media all and (max-width:768px) {
+    .galery {
+        display: none;
+    }
+}
+
+@media all and (max-width:768px) {
+    .paragraphp4 {
+        display: flex;
+        flex-direction: column;
+
+    }
+    @media all and (max-width:640px) {
+        .paragraphp4 figure > img {
+            max-width: 325px;
+
+
+        }
+        @media all and (max-width:360px) {
+            .paragraphp4 figure > img {
+                display: none;
+
+            }
+            .gallery figure > img {
+
+                max-height: 464px;
+            }
+        }
+
+        @media all and (max-width:768px) {
+            .threeparagraphs {
+                display: flex;
+                flex-direction: column;
+
+            }
+            .left,
+            .middle,
+            .right {
+                display: flex;
+
+            }
+        }
+        @media all and (max-width:640px) {
+            .left figure > img,
+            .right figure > img,
+            .middle figure > img {
+                max-width: 114.5px;
+            }
+        }
+        @media all and (max-width:360px) {
+            .left figure > img,
+            .right figure > img,
+            .middle figure > img {
+                display: none;
+            }
+        }
+
+        .left,
+        .middle,
+        .right {
+            padding: 0.625rem 0.313rem;
+        }
+
+        summary {
+            font-family: cursive;
+        }
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" >
